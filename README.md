@@ -19,14 +19,12 @@ The app was made with:
 
 ## What Challenges Did you Encounter?
 
-Figuring out the best way to get the page to regularly refresh so that the current time, next arrival time and minutes away update without the user having to refresh the page themself.
-
-Currently, the page refreshes every 10 seconds using `<meta http-equiv="refresh" content="10">` in the head tag.
+Figuring out the best way to get the page to reguarly rerresh so that the current time, next arrival time and minutes away update without the user having to refresh the page themself.
 
 Additionally, preventing form submission with no user data is the fields is not functioning in the Javascript as I expect when using `event.PreventDefault()` (user data still gets submitted if one of the fields is empty).
 
 ## What's Next?
 
-* Find a more elegant method for refreshing numbers and times on the page without the user having to refresh themselves
+* Find a method for refreshing numbers and times on the page without the user having to refresh the page themselves or reload the entire page
 * Replace the alert with something more elegant like a modal to acknowledge that the information has been uploaded
 * Make sure that user data does not get submitted when one of of the form fields is left blank
